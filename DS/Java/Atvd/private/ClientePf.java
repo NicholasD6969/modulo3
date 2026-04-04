@@ -1,20 +1,13 @@
+package DS.Java.Atvd.private;
 
-public class ClientePf extends Cliente {
-    private String cpf;
+public class ClienteApp extends Cliente {
 
-    public ClientePf(int codigo, String nome,  String endereco,String cpf){
-        super(codigo, nome, endereco);
-        this.cpf = cpf;
+    public static void main(String[] args) {
 
-    }
-    public String getCpf() {
-        return cpf;
-    }
-    public void setCpf(String cpf) {
-        this.cpf = cpf;
-    }
-    public void exibirDados() {
-        super.exibirDados();
-        System.out.println("CPF: " + cpf);
+        ClientePf c1 = new ClientePf(1, "João", "Rua A, 123", "123.456.789-00");
+        ClientePj c2 = new ClientePj(2, "Empresa XYZ", "Avenida B, 456", "12.345.678/0001-00");
+
+        c1.exibirInfo();
+        c2.exibirInfo();
     }
 }

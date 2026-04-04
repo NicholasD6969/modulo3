@@ -1,13 +1,13 @@
+package DS.Java.Atvd.private;
 
-public class ClienteApp {
-    
+public class ClienteApp extends Cliente {
+
     public static void main(String[] args) {
-       // ClientePf pf = new ClientePf(codigo: 1, nome: "João Silva", endereco: "Rua A, 123", cpf: "123.456.789-00");
 
-       // pf.exibirDados();
-       Cliente c1 = new ClientePf(0, null, null, null);
-       Cliente c2 = new ClientePj(0, null, null, null);
-       c1.exibirDados();
-       c2.exibirDados();
+        ClientePf c1 = new ClientePf(1, "João", "Rua A, 123", "123.456.789-00");
+        ClientePj c2 = new ClientePj(2, "Empresa XYZ", "Avenida B, 456", "12.345.678/0001-00");
+
+        c1.exibirInfo();
+        c2.exibirInfo();
     }
 }
