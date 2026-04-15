@@ -1,3 +1,5 @@
+package AlterarArray;
+
 import java.util.Scanner;
 
 public class Ex04 {
