@@ -1,0 +1,4 @@
+Marca: CHEVROLET
+Modelo: ONIX JOY
+Ano: 2026
+----------------------
